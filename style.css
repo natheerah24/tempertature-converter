@@ -1,12 +1,11 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url(/assets/temp.jpg);
-  background-color: darkseagreen;
-  background-image: url("/assets/temp.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("/assets/temp.jpg");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-size: 100%;
+  background-size: 100% 100%;
   object-fit: cover;
+  height: 100vh;
 }
 .container {
   display: flex;
